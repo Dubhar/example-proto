@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package dubhar.test;
+
+import "google/protobuf/empty.proto";
+
+message HelloMsg {
+  string hello = 1;
+}
+
+
+service SaySomething {
+  rpc Hello(google.protobuf.Empty) returns (HelloMsg);
+}
+
