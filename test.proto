@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package dubhar.test;
+package "dubhar.test";
 
 import "google/protobuf/empty.proto";
 
